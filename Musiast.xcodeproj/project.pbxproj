@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A639682BC8222A00F537C9 /* JsonResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A639672BC8222A00F537C9 /* JsonResult.swift */; };
+		42A639702BCA81C600F537C9 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6396F2BCA81C600F537C9 /* LandingPage.swift */; };
+		42A639762BCA8D1200F537C9 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A639752BCA8D1200F537C9 /* AlbumViewModel.swift */; };
+		42A6397E2BCAF80500F537C9 /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6397D2BCAF80500F537C9 /* welcome.swift */; };
+		42A70B732BC66A37000EC328 /* MusiastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A70B722BC66A37000EC328 /* MusiastApp.swift */; };
+		42A70B752BC66A37000EC328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A70B742BC66A37000EC328 /* ContentView.swift */; };
+		42A70B772BC66A39000EC328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A70B762BC66A39000EC328 /* Assets.xcassets */; };
+		42A70B7A2BC66A39000EC328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A70B792BC66A39000EC328 /* Preview Assets.xcassets */; };
+		42A70B842BC66A39000EC328 /* MusiastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A70B832BC66A39000EC328 /* MusiastTests.swift */; };
+		42A70B8E2BC66A39000EC328 /* MusiastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A70B8D2BC66A39000EC328 /* MusiastUITests.swift */; };
+		42A70B902BC66A39000EC328 /* MusiastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A70B8F2BC66A39000EC328 /* MusiastUITestsLaunchTests.swift */; };
+		42A70BAE2BC80FD5000EC328 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 42A70BAD2BC80FD5000EC328 /* SpotifyiOS */; };
+		42CDB8542BCBD0B80079BB4E /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDB8532BCBD0B80079BB4E /* AlbumView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A70B802BC66A39000EC328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A70B672BC66A37000EC328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A70B6E2BC66A37000EC328;
+			remoteInfo = Musiast;
+		};
+		42A70B8A2BC66A39000EC328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A70B672BC66A37000EC328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A70B6E2BC66A37000EC328;
+			remoteInfo = Musiast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42A639672BC8222A00F537C9 /* JsonResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResult.swift; sourceTree = "<group>"; };
+		42A6396F2BCA81C600F537C9 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		42A639752BCA8D1200F537C9 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		42A6397D2BCAF80500F537C9 /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
+		42A70B6F2BC66A37000EC328 /* Musiast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musiast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A70B722BC66A37000EC328 /* MusiastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiastApp.swift; sourceTree = "<group>"; };
+		42A70B742BC66A37000EC328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42A70B762BC66A39000EC328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A70B792BC66A39000EC328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42A70B7F2BC66A39000EC328 /* MusiastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A70B832BC66A39000EC328 /* MusiastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiastTests.swift; sourceTree = "<group>"; };
+		42A70B892BC66A39000EC328 /* MusiastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusiastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A70B8D2BC66A39000EC328 /* MusiastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiastUITests.swift; sourceTree = "<group>"; };
+		42A70B8F2BC66A39000EC328 /* MusiastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42CDB8532BCBD0B80079BB4E /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A70B6C2BC66A37000EC328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A70BAE2BC80FD5000EC328 /* SpotifyiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B7C2BC66A39000EC328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B862BC66A39000EC328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A639642BC821FB00F537C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42A639672BC8222A00F537C9 /* JsonResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42A639652BC8220400F537C9 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				42A639752BCA8D1200F537C9 /* AlbumViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		42A639662BC8220B00F537C9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				42A6396F2BCA81C600F537C9 /* LandingPage.swift */,
+				42CDB8532BCBD0B80079BB4E /* AlbumView.swift */,
+				42A6397D2BCAF80500F537C9 /* welcome.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		42A70B662BC66A37000EC328 = {
+			isa = PBXGroup;
+			children = (
+				42A639662BC8220B00F537C9 /* view */,
+				42A639652BC8220400F537C9 /* viewModel */,
+				42A639642BC821FB00F537C9 /* Model */,
+				42A70B712BC66A37000EC328 /* Musiast */,
+				42A70B822BC66A39000EC328 /* MusiastTests */,
+				42A70B8C2BC66A39000EC328 /* MusiastUITests */,
+				42A70B702BC66A37000EC328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A70B702BC66A37000EC328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A70B6F2BC66A37000EC328 /* Musiast.app */,
+				42A70B7F2BC66A39000EC328 /* MusiastTests.xctest */,
+				42A70B892BC66A39000EC328 /* MusiastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A70B712BC66A37000EC328 /* Musiast */ = {
+			isa = PBXGroup;
+			children = (
+				42A70B722BC66A37000EC328 /* MusiastApp.swift */,
+				42A70B742BC66A37000EC328 /* ContentView.swift */,
+				42A70B762BC66A39000EC328 /* Assets.xcassets */,
+				42A70B782BC66A39000EC328 /* Preview Content */,
+			);
+			path = Musiast;
+			sourceTree = "<group>";
+		};
+		42A70B782BC66A39000EC328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42A70B792BC66A39000EC328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42A70B822BC66A39000EC328 /* MusiastTests */ = {
+			isa = PBXGroup;
+			children = (
+				42A70B832BC66A39000EC328 /* MusiastTests.swift */,
+			);
+			path = MusiastTests;
+			sourceTree = "<group>";
+		};
+		42A70B8C2BC66A39000EC328 /* MusiastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42A70B8D2BC66A39000EC328 /* MusiastUITests.swift */,
+				42A70B8F2BC66A39000EC328 /* MusiastUITestsLaunchTests.swift */,
+			);
+			path = MusiastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A70B6E2BC66A37000EC328 /* Musiast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A70B932BC66A39000EC328 /* Build configuration list for PBXNativeTarget "Musiast" */;
+			buildPhases = (
+				42A70B6B2BC66A37000EC328 /* Sources */,
+				42A70B6C2BC66A37000EC328 /* Frameworks */,
+				42A70B6D2BC66A37000EC328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musiast;
+			packageProductDependencies = (
+				42A70BAD2BC80FD5000EC328 /* SpotifyiOS */,
+			);
+			productName = Musiast;
+			productReference = 42A70B6F2BC66A37000EC328 /* Musiast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A70B7E2BC66A39000EC328 /* MusiastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A70B962BC66A39000EC328 /* Build configuration list for PBXNativeTarget "MusiastTests" */;
+			buildPhases = (
+				42A70B7B2BC66A39000EC328 /* Sources */,
+				42A70B7C2BC66A39000EC328 /* Frameworks */,
+				42A70B7D2BC66A39000EC328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A70B812BC66A39000EC328 /* PBXTargetDependency */,
+			);
+			name = MusiastTests;
+			productName = MusiastTests;
+			productReference = 42A70B7F2BC66A39000EC328 /* MusiastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42A70B882BC66A39000EC328 /* MusiastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A70B992BC66A39000EC328 /* Build configuration list for PBXNativeTarget "MusiastUITests" */;
+			buildPhases = (
+				42A70B852BC66A39000EC328 /* Sources */,
+				42A70B862BC66A39000EC328 /* Frameworks */,
+				42A70B872BC66A39000EC328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A70B8B2BC66A39000EC328 /* PBXTargetDependency */,
+			);
+			name = MusiastUITests;
+			productName = MusiastUITests;
+			productReference = 42A70B892BC66A39000EC328 /* MusiastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A70B672BC66A37000EC328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					42A70B6E2BC66A37000EC328 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					42A70B7E2BC66A39000EC328 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 42A70B6E2BC66A37000EC328;
+					};
+					42A70B882BC66A39000EC328 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 42A70B6E2BC66A37000EC328;
+					};
+				};
+			};
+			buildConfigurationList = 42A70B6A2BC66A37000EC328 /* Build configuration list for PBXProject "Musiast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A70B662BC66A37000EC328;
+			packageReferences = (
+				42A70BAC2BC80FD5000EC328 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
+			productRefGroup = 42A70B702BC66A37000EC328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A70B6E2BC66A37000EC328 /* Musiast */,
+				42A70B7E2BC66A39000EC328 /* MusiastTests */,
+				42A70B882BC66A39000EC328 /* MusiastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A70B6D2BC66A37000EC328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A70B7A2BC66A39000EC328 /* Preview Assets.xcassets in Resources */,
+				42A70B772BC66A39000EC328 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B7D2BC66A39000EC328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B872BC66A39000EC328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A70B6B2BC66A37000EC328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A639762BCA8D1200F537C9 /* AlbumViewModel.swift in Sources */,
+				42A639682BC8222A00F537C9 /* JsonResult.swift in Sources */,
+				42A6397E2BCAF80500F537C9 /* welcome.swift in Sources */,
+				42A70B752BC66A37000EC328 /* ContentView.swift in Sources */,
+				42A639702BCA81C600F537C9 /* LandingPage.swift in Sources */,
+				42A70B732BC66A37000EC328 /* MusiastApp.swift in Sources */,
+				42CDB8542BCBD0B80079BB4E /* AlbumView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B7B2BC66A39000EC328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A70B842BC66A39000EC328 /* MusiastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A70B852BC66A39000EC328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A70B8E2BC66A39000EC328 /* MusiastUITests.swift in Sources */,
+				42A70B902BC66A39000EC328 /* MusiastUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A70B812BC66A39000EC328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A70B6E2BC66A37000EC328 /* Musiast */;
+			targetProxy = 42A70B802BC66A39000EC328 /* PBXContainerItemProxy */;
+		};
+		42A70B8B2BC66A39000EC328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A70B6E2BC66A37000EC328 /* Musiast */;
+			targetProxy = 42A70B8A2BC66A39000EC328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42A70B912BC66A39000EC328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A70B922BC66A39000EC328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A70B942BC66A39000EC328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Musiast/Preview Content\"";
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.Musiast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A70B952BC66A39000EC328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Musiast/Preview Content\"";
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.Musiast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42A70B972BC66A39000EC328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.MusiastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musiast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Musiast";
+			};
+			name = Debug;
+		};
+		42A70B982BC66A39000EC328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.MusiastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musiast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Musiast";
+			};
+			name = Release;
+		};
+		42A70B9A2BC66A39000EC328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.MusiastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musiast;
+			};
+			name = Debug;
+		};
+		42A70B9B2BC66A39000EC328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVGBXQ6APW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.nitin.MusiastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musiast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A70B6A2BC66A37000EC328 /* Build configuration list for PBXProject "Musiast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A70B912BC66A39000EC328 /* Debug */,
+				42A70B922BC66A39000EC328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A70B932BC66A39000EC328 /* Build configuration list for PBXNativeTarget "Musiast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A70B942BC66A39000EC328 /* Debug */,
+				42A70B952BC66A39000EC328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A70B962BC66A39000EC328 /* Build configuration list for PBXNativeTarget "MusiastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A70B972BC66A39000EC328 /* Debug */,
+				42A70B982BC66A39000EC328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A70B992BC66A39000EC328 /* Build configuration list for PBXNativeTarget "MusiastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A70B9A2BC66A39000EC328 /* Debug */,
+				42A70B9B2BC66A39000EC328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42A70BAC2BC80FD5000EC328 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42A70BAD2BC80FD5000EC328 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42A70BAC2BC80FD5000EC328 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 42A70B672BC66A37000EC328 /* Project object */;
+}
